@@ -8,12 +8,12 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: sudha
+      app: varun
   template:
     metadata:
       name: jenkins
       labels:
-        app: sudha
+        app: varun
     spec:
       containers:
         - name: myjenkins
