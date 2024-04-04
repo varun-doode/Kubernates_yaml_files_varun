@@ -4,7 +4,7 @@ metadata:
   name: my-jenkins
   labels:
     app: jenkins
-  namespace: sudha
+  namespace: varun
 spec:
   replicas: 1
   strategy:
